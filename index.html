@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafiqus's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/rs.png" alt="Rafiqus Salehin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rafiqus Salehin">Rafiqus Salehin</h1>
+
+          <p class="title"><b>Physicist | Data Scientist</b></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rsalehin@gmail.com" class="contact-link">rsalehin@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Leipzig, Saxony, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+<!-- 
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul> -->
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Welcome to my website! I'm a physicist with a passion for exploring the frontiers of technology. 
+            My journey began with a fascination for the fundamental laws of the universe, leading me to pursue a career in physics. 
+            Along the way, I discovered a keen interest in the rapidly evolving field of machine learning, deep learning, and artificial intelligence.
+          </p>
+
+          <p>
+            Driven by curiosity and a desire to understand the inner workings of complex systems, 
+            I delve into the intricacies of algorithms, neural networks, and data science methodologies. 
+            From unraveling the mysteries of quantum mechanics to exploring the limitless possibilities of AI, 
+            I thrive on the challenges of pushing the boundaries of knowledge and innovation.
+          </p>
+
+          <p>
+            Whether it's developing predictive models for real-world applications or unraveling the mysteries of the cosmos, 
+            I approach every problem with a blend of analytical rigor, creativity, and a relentless pursuit of excellence. 
+            Through my work, I aim to contribute to the advancement of science and technology while inspiring others to embark on their own journey of discovery.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <!-- <section class="service">
+
+          <h3 class="h3 service-title">Domain of Expertise</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Physics Research</h4>
+
+                <p class="service-item-text">
+              
+              Engaged in the analysis of astrophysical satellite data, employing diverse machine learning methodologies to facilitate clustering and comprehensive analysis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Data Science" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Proficient in full-stack data science, including exploratory data analysis with Pandas, SQL, and NumPy. 
+                  Skilled in data visualization and statistical analysis to address inquiries in business and scientific research.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Artificial Intelligence" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  Engaged in programming autonomous agents for gaming environments and implementing reinforcement 
+                  learning methodologies for training line-following robotics systems as a personal hobby within the realm of artificial intelligence.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Machine Learning" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Expertise in deep learning, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and natural language processing (NLP)
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+  
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bangladesh University of Engineering and Technology</h4>
+              <span>Bachelor of Science, Mechanical Engineering</span>
+              <span>2007 — 2009</span>
+
+              <p class="timeline-text">
+                I studied four semesters of Mechanical Engineering. I have learned the foundational mathematics, physics, computer programming, electronics. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Leipzig</h4>
+              <span>Bachelor of Science, Physics</span>
+              <span>2017 — 2023</span>
+
+              <p class="timeline-text">
+              I learned theoretical and experimental physics, mathematics, programming, 
+              simulation, data analysis, data visualization, research methodology, research presentation and communication. 
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Professional Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/datacamp.png" alt="datacamp Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">Data Analyst Professional</h4>
+                </a>
+                <span>DataCamp</span>
+
+                <p class="timeline-text">
+                  Skills Learned: 
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/datacamp.png" alt="datacamp Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">SQL Associate Certificate</h4>
+                </a>
+                <span>DataCamp</span>
+
+                <p class="timeline-text">
+                  Skills Learned: 
+                </p>
+              </div>
+
+              </div>
+            </li>
+            
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/datacamp.png" alt="datacamp Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">Data Science Professional</h4>
+                </a>
+                <span>DataCamp</span>
+
+                <p class="timeline-text">
+                  Skills Learned: 
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/pcap.png" alt="pcap Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">PCAP Python Associate</h4>
+                </a>
+                <span>edx</span>
+
+                <p class="timeline-text">
+                  Skills Learned: 
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Online Courses and Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/Coursera.png" alt="Coursera Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#"><h4 class="h4 timeline-item-title">Mathematics for Data Science and Machine Learning Specialization</h4></a>
+                <span>Coursera</span>
+
+                <p class="timeline-text">
+                Skills Learned: Linear Algebra, Probability Theory, Statistics, Calculus and Optimization. 
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/edx.png" alt="edx Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">Harvard CS50: Introduction to Artificial Intelligence</h4>
+                </a>
+                <span>edx</span>
+
+                <p class="timeline-text">
+                  Skills Learned: Search, Minmax, Propositional Logic, Machine Learning, Natural Language Processing, Convolutional Neural Network, Recurrent Neural Network.
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/Coursera.png" alt="edx Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">Stanford Machine Learning Specialization</h4>
+                </a>
+                <span>Coursera</span>
+
+                <p class="timeline-text">
+                  Skills Learned: Skills learned: Linear Regression, Logistic Regression, Neural Network, 
+                  Decision Trees, PCA, Anomaly Detection, Recommender System, Reinforcement Learning.
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+
+          
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/Coursera.png" alt="edx Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">DeepMind.ai Deep Learning Specialization</h4>
+                </a>
+                <span>Coursera</span>
+
+                <p class="timeline-text">
+                  Skills Learned: Skills learned: Linear Regression, Logistic Regression, Neural Network, 
+                  Decision Trees, PCA, Anomaly Detection, Recommender System, Reinforcement Learning.
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+
+            <li class="timeline-item">
+
+              <div class="timeline-item-content">
+
+                <div class="logo-box">
+                  <img src="assets/images/Coursera.png" alt="Coursera Logo">
+                </div>
+
+              <div class = "timeline-content">
+                <a href="#">
+                  <h4 class="h4 timeline-item-title">DeepMind.ai Natural Language Processing Specialization</h4>
+                </a>
+                <span>Coursera</span>
+
+                <p class="timeline-text">
+                  Skills Learned: Skills learned: Linear Regression, Logistic Regression, Neural Network, 
+                  Decision Trees, PCA, Anomaly Detection, Recommender System, Reinforcement Learning.
+                </p>
+              </div>
+
+              </div>
+            </li>
+
+
+          </ol>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+          
+              <h3 class="h3">Language Proficiency</h3>
+            </div>
+          
+            <ol class="timeline-list">
+          
+              <li class="timeline-item">
+          
+                <h4 class="h4 timeline-item-title">Bangla</h4>
+                <span>Native</span>
+          
+              </li>
+          
+              <li class="timeline-item">
+          
+                <h4 class="h4 timeline-item-title">English</h4>
+                <span>Native</span>
+          
+              </li>
+          
+              <li class="timeline-item">
+          
+                <h4 class="h4 timeline-item-title">German</h4>
+                <span>Professional: Level C1</span>
+          
+              </li>
+          
+            </ol>
+          
+          </section>
+          
+        
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Jobs
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+
+              <span>2011 — 2014</span>
+
+              <p class="timeline-text">
+                Jobs 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Unity3D Game Developer</h4>
+
+              <span>2013 — 2016</span>
+
+              <p class="timeline-text">
+                Jobs 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="65">65%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">SQL, Pandas</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Games</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Simulations</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Games</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Simulations</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A/B Testing</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="games">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Games</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="simulations">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM</h3>
+
+                <p class="project-category">Simulations</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206897.56177625523!2d12.34638835083951!3d51.339182041947286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a6f873ebf05d25%3A0x424f157ec1f331ec!2sLeipzig%2C%20Germany!5e0!3m2!1sen!2sus!4v1647610419675!5m2!1sen!2sus"
+             width="400" height="300" loading="lazy"></iframe>
+
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="mailto:rsalehin@gmail.com" method="post" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
