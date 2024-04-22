@@ -1,2 +1,2 @@
 # portfolio
-Portfolion Projects and Resume
+Portfolio Projects and Resume
