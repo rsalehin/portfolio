@@ -959,9 +959,8 @@ main {
 }
 
 .project-item 
-{ width: 200px; /* adjust as needed */
-  height: 300px; /* adjust as needed */
-  overflow: hidden; /* to prevent content from spilling over */ 
+{ 
+ display: none;
 }
 
 .project-item.active {
