@@ -958,7 +958,11 @@ main {
   margin-bottom: 10px;
 }
 
-.project-item { display: none; }
+.project-item 
+{ width: 200px; /* adjust as needed */
+  height: 300px; /* adjust as needed */
+  overflow: hidden; /* to prevent content from spilling over */ 
+}
 
 .project-item.active {
   display: block;
