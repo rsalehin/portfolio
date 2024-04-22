@@ -952,18 +952,18 @@ main {
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-bottom: 10px;
 }
-.project-item {
-  flex-basis: calc(33.33% - 10px); /* adjust as needed */
-  height: 400px; /* adjust as needed */
-  overflow: hidden; /* to prevent content from spilling over */
-}
+
+.project-item { display: none; }
 
 .project-item.active {
   display: block;
+  width: 200px;
+  height: 300px;
   animation: scaleUp 0.25s ease forwards;
 }
 
