@@ -962,8 +962,6 @@ main {
 
 .project-item.active {
   display: block;
-  width: 200px;
-  height: 300px;
   animation: scaleUp 0.25s ease forwards;
 }
 
