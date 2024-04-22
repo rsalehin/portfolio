@@ -952,15 +952,14 @@ main {
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
 .project-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 30px;
-  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-
-.project-item 
-{ 
- display: none;
+.project-item {
+  flex-basis: calc(33.33% - 10px); /* adjust as needed */
+  height: 400px; /* adjust as needed */
+  overflow: hidden; /* to prevent content from spilling over */
 }
 
 .project-item.active {
